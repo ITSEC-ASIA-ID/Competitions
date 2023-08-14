@@ -1,4 +1,4 @@
-# Cat Viewer - Web Exploitation
+# Bad Waf No Donut - Web Exploitation
 
 ## Ideas
 There is a hidden `/secrets` path in the source of `/explore`.
