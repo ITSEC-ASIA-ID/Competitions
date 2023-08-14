@@ -1,9 +1,3 @@
-
-
-
-Within the loomRoom function, a buffer overflow exists in the src variable; however, altering the return address is not feasible.
-
-
 # Initial Analysis (Decompilation)
 
 The writer utilized the IDA Pro decompiler to facilitate a clearer understanding of the program's flow within the output code.
