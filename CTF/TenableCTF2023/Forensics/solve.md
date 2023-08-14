@@ -16,6 +16,8 @@
 
 3. Dump the file with dd again starting on LUKS header.
 
+    ![](./images/9.png)
+    
     Delete the first byte
     ![](./images/4.png)
 
