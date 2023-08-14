@@ -10,7 +10,6 @@ The executable file presents four main features:
 
 # Vulnerability 
 
-A noteworthy vulnerability lies in an unused function named theVoid. 
 There one function never called is `theVoid`. This function appears to be designed to display a flag, so the write will assume thats the objective is successfully call function `theVoid`.
 
 in function loomRoom, there are have buffer overflow at variable src but cann't change return address.
