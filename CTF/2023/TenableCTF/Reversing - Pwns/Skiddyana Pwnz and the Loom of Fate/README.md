@@ -12,7 +12,7 @@ The executable file presents four main features:
 
 There one function never called is `theVoid`. This function appears to be designed to display a flag, so the write will assume thats the objective is successfully call function `theVoid`.
 
-in function loomRoom, there are have buffer overflow at variable src but cann't change return address.
+In function loomRoom, there are have buffer overflow at variable src but cann't change return address.
 
 ```
 char src[8]
@@ -114,4 +114,4 @@ flag{d0nt_f0rg3t_y0ur_h4t}
 ```
 ## Flag
 
-Flag : `flag{d0nt_f0rg3t_y0ur_h4t}`
+`flag{d0nt_f0rg3t_y0ur_h4t}`
