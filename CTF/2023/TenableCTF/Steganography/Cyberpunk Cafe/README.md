@@ -11,10 +11,7 @@ Thanks for visiting the Cyberpunk Cafe! Please use the code below to see what we
 ## Ideas
 
 1. Since the given string is binary, we try to convert 0 and 1 to Qr code.
-3. By using this website we could convert 0 and 1 into Qr code, below the link
-    https://bahamas10.github.io/binary-to-qrcode/
-    Result:
-    ![](./Images/1.png)
+3. By using this website we could convert 0 and 1 into Qr code, link : https://bahamas10.github.io/binary-to-qrcode/ , result: ![](./Images/1.png)
 4. Scan the Qr and found the flag
 
 ## Flag
