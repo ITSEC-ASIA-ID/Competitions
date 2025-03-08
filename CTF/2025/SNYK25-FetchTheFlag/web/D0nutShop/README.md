@@ -1,4 +1,4 @@
-# WHO IS JH
+# D0nutShop
 
 tl;dr
 - Exploit Math.random() vulnerability
