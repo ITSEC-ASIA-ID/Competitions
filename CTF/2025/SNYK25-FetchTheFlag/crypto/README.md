@@ -9,7 +9,7 @@ At first we're given with a website in which we're asked to enter a code
 
 ![Image](https://github.com/user-attachments/assets/98953612-1055-45c1-9e26-6ed0ca554420)
 
-later on the competition, the author actually give the source code of the application to avoid it being to guessy
+later on the competition, the author actually give the source code of the application to avoid it being too guessy
 
 ```js
 app.post('/api/submit/:token', (req, res, next) => {
