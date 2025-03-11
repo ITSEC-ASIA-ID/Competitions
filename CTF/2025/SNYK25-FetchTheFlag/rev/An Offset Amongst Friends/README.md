@@ -1,7 +1,7 @@
 # An Offset Amongst Friends
 tl;dr
 
-ROT-like String Manipulation
+ROT-like String Manipulation on ELF binary
 
 ### Solution
 
