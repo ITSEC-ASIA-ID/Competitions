@@ -58,3 +58,5 @@ if ($env:MAGIC_KEY -eq 'Sup3rS3cr3t!') {
 we can actually just base64 decode the string on the `decoded` variable to get the flag directly, but let's look into the branching function on the bottom on the function. Based on the condition, we need to have `MAGIC_KEY` which is equal to `Sup3rS3cr3t!` so it will output our key, we can do that by setting the env value on our powershell terminal which is `$env:MAGIC_KEY = "Sup3rS3cr3t!"` then we can try to run the script and it will print our flag
 
 ![Image](https://github.com/user-attachments/assets/21f80f48-e552-434c-b8db-d91f74eaa6fb)
+
+
