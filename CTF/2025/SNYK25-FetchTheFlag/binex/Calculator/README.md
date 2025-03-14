@@ -51,7 +51,9 @@ Injecting the Payload into the Challenge
 Once the generated payload is ready:
 ![image](https://github.com/user-attachments/assets/f4ef7c07-8f67-46a5-9501-bc64f72c195c)
 Copy the generated payload.
+
 Input it into the challenge.
+
 Execute it, and a shell should spawn.
 ![image](https://github.com/user-attachments/assets/a4aefe2a-dbf8-4995-93b1-4c86dad1cdf5)
 
