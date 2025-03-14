@@ -37,9 +37,12 @@ However, the goal is to bypass these restrictions and execute shell commands, su
 The challenge restricts the use of alphabetic characters (A-Z, a-z) and the underscore (_) symbol in the input. However, we can bypass these limitations using Unicode representations and the chr() function.
 
 1. Bypassing Alphabetic Character Restrictions
+
 Alphabetic characters can be replaced with their Unicode equivalents from the Mathematical Alphanumeric Symbols table.
 For example, o can be replaced with 𝐨 or 𝗈, which visually resemble o but are technically different Unicode characters.
+
 2. Bypassing the Underscore (_) Restriction
+
 Since there's no direct Unicode equivalent for _, we use chr(95) instead.
 chr(95) dynamically generates the underscore character, bypassing the filter.
 
@@ -48,8 +51,10 @@ Since there are no length restrictions, we can generate a longer payload to obfu
 the payload `__import__("os").system("/bin/sh")` will be inside eval()
 
 Injecting the Payload into the Challenge
+
 Once the generated payload is ready:
 ![image](https://github.com/user-attachments/assets/f4ef7c07-8f67-46a5-9501-bc64f72c195c)
+
 Copy the generated payload.
 
 Input it into the challenge.
